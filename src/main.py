@@ -15,7 +15,7 @@ import threading
 import time
 import pytz
 
-socket_path = "./tidalapi.sock"
+socket_path = "./socketfolder/tidalapi.sock"
 
 
 def picture_url(img_uuid, width=1280, height=1280):
